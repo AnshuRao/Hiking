@@ -131,7 +131,7 @@ body {
 
 .top-shape {
     background-image: url("../img/shape-top.png");
-    width: 100%;
+    width: 99.9%;
     height: 250px;
     position: absolute;
     top: -35px;
