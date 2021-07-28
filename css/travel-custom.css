@@ -692,7 +692,8 @@ footer{
     padding: 25px 0rem;
     z-index: 10;
     box-sizing: border-box;
-    display: none;  background:linear-gradient(-45deg, #ee765293, #e73c7e98, #23a5d588, #23d5ab8e);
+    display: none; 
+    background:linear-gradient(rgba(99, 110, 114,0.7), rgba(45, 52, 54,0.7));
     animation: change 10s ease-in-out infinite;
     background-size: 400% 400%;
 
