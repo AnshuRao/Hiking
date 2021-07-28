@@ -306,18 +306,20 @@ margin: 0 auto;
     padding-bottom: 1.9rem;
 }
 
-.wrapper-2 button {
-    background: none;
-    background-color: #30336b;
-    color: #fff;
-    font-weight: bolder;
-    font-size: larger;
-    border-radius: 15px;
-    margin-top: 50px;
-    width: 200px;
-    height: 50px;
-}
 
+.more-btn1{
+    width: 10rem;
+    height: 40px;
+    color:#fff ;
+    background-color: rgba(231, 76, 60,1.0);
+    border: none;
+    border: 1px solid rgba(231, 76, 60,1.0);
+
+}
+.more-btn1:hover{
+    background-color: #fff;
+    color: rgba(231, 76, 60,1.0);
+}
 /* Part-3 */
 
 .wrapper-3 {
@@ -378,13 +380,19 @@ margin: 0 auto;
 
 .btn-dis {
     background: none;
-    background-color: #e2a355;
+    background-color: rgba(231, 76, 60,1.0);
     font-weight: bolder;
     font-size: larger;
-    border-radius: 15px;
+    border: none;
+    border: 1px solid rgba(231, 76, 60,1.0);
+    border-radius: 50%;
     color: #fff;
-    width: 12rem;
-    height: 50px;
+    width: 6rem;
+    height: 6rem;
+}
+.btn-dis:hover{
+    background-color: #fff;
+    color: rgba(231, 76, 60,1.0);
 }
 
 /* part-4  */
