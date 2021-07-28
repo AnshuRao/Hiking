@@ -13,22 +13,24 @@
 @media only screen and (max-width:770px){
     .text-heading{
        position: absolute;
-       bottom: 29%;
+       bottom: 20%;
         margin: 0;
         padding: 0;
         z-index: 5;
     }
     .more-btn {
-    
-        margin-left: 0px;
+        width: 11rem;
+        height: 40px;
+        font-size: 1.3rem;
+      
     }
     .last-text-top-part {
         padding-top: 30px;
-        width: 80%;
+        width: 95%;
         margin: 0 auto;
        
         font-family: cursive;
-        color: #a7a19c;
+      
     
     }
     .icons{
@@ -104,18 +106,14 @@
     .size50{
       
         
-        width: 95%;
+        width: 100%;
         margin: 0 auto;
        
     }
     .wrapper-3 {
         padding-top: 50px;
     }
-    .discount-box , .promo-box , .dis-image {
-        
-      margin-bottom: 20px;
-
-    }
+  
     .discount-box , .promo-box {
         padding-bottom: 15px;
     }

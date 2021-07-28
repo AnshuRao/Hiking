@@ -32,7 +32,7 @@ body {
 /* Part 1 */
 
 .wrapper-top {
-    background-image: url("../img/banner-img.png");
+    background-image: url("../img/ban7.jpg");
     width: 100%;
     height: 100vh;
     min-height: 700px;
@@ -42,7 +42,6 @@ body {
     background-attachment: fixed;
     position: relative;
  
-  
 }
 
 .navigation {
@@ -142,16 +141,26 @@ body {
     position: absolute;
     top: -35px;
 }
+.text-heading{
+   
+}
 .text-heading h5{
-    font-size: larger;
-    color: #696663;
+    font-size: 2rem;
+    color: #ff7675;
+    margin-top: 25px;
+    text-align: center;
+    font-family: 'WindSong', cursive;
 }
 
 .heading-1 {
     padding-top: 4.5rem;
     font-size: 4.5rem;
-    color: #deb37e;
+    color: #ffeaa7;
+    font-weight: 15px;
+    letter-spacing: 10px;
+    text-align: center;
     text-shadow: 2px 2px 5px #7f7770;
+    font-family: 'Style Script', cursive;
 }
 
 .wrapper-top {
@@ -159,24 +168,26 @@ body {
 }
 
 .more-btn {
+    display:block;
+    text-align: center;
     font-size: larger;
     background: none;
-    border-radius: 20%;
+    border-radius: 50px;
     background-color: #fff;
     color: #696663;
     font-weight: bolder;
-    margin-top: 30px;
-    margin-left: 50px;
+  margin: 25px auto;
     width: 13rem;
     height: 50px;
 }
 
 .last-text-top-part {
-    margin-top: 20px;
-    width: 80%;
-   
-    font-family: cursive;
-    color: #85817d;
+    margin-top: 50px;
+    width: 90%;
+    text-align: center;
+   font-size: 1.4rem;
+   font-family: 'WindSong', cursive;
+    color: #dff9fb;
 
 }
 
@@ -271,7 +282,7 @@ margin: 0 auto;
     transform: translateZ(20px) scaleY(1);
 }
 .box:hover {
-    box-shadow: 0 50px 80px rgba(0,0, 0, 0.2);
+    box-shadow: 0 50px 80px rgba(0,0, 0, 0.4);
 }
 
 .shadow {
@@ -297,7 +308,7 @@ margin: 0 auto;
 
 .wrapper-2 button {
     background: none;
-    background-color: #7f7770;
+    background-color: #30336b;
     color: #fff;
     font-weight: bolder;
     font-size: larger;
@@ -328,7 +339,7 @@ margin: 0 auto;
 }
 
 .discount-box {
-    background-color: #7f7770;
+    background-color: #30336b;
 }
 
 .discount-box h1 {
@@ -346,7 +357,9 @@ margin: 0 auto;
 }
 
 .promo-box {
-    background-color: #deb37e;
+    background-color: #7f8fa6;
+    margin: 0;
+    padding: 0;
 }
 
 .promo-box h1 {
@@ -377,7 +390,7 @@ margin: 0 auto;
 /* part-4  */
 
 .wrapper-4 {
-    background-color: #a7a19c;
+    background-color: #7f8fa6;
     min-height: 700px;
     position: relative;
 }
@@ -450,6 +463,11 @@ margin: 0 auto;
     background-color: #fff;
     position: relative;
 }
+.wrapper-6 .gram-heading{
+    text-align: center;
+    margin: 25px auto;
+    font-size: 2.5rem;
+}
 .wrapper-6 .three-parts{
     display: flex;
     flex-direction: row;
@@ -501,7 +519,7 @@ color: #deb37e;
 
 /* Part- 7 */
 .wrapper-7{
-    background-color: #deb37e;
+    background-color: #30336b;
     position: relative;
     width: 100%;
     min-height: 750px;
@@ -560,7 +578,7 @@ color: #deb37e;
     border: none;
     outline: none;
     cursor: pointer;
-    background: #7f7770;
+    background: #e84118;
     color: #fff;
 }
 
@@ -582,7 +600,7 @@ color: #deb37e;
 
 
 footer{
-    background-color: #696663;
+    background-color: #30336b;
     width: 100%;
     padding: 2% 5%;
     padding-top: 20%; 
