@@ -88,7 +88,7 @@ body {
 }
 
 .navigation li button:hover {
-    color: indianred;
+    color: rgba(235, 77, 75,1.0);
 }
 
 .navigation li button::before {
@@ -105,7 +105,7 @@ body {
 .navigation li button:hover:before {
     width: 7.333rem;
     height: 30px;
-    border: 2px solid indianred;
+    border: 2px solid tomato;
     border-bottom: none;
     border-right: none;
     border-left: none;
@@ -125,7 +125,7 @@ body {
 .navigation li button:hover::after {
     width: 7.33rem;
     height: 30px;
-    border: 2px solid indianred;
+    border: 2px solid tomato;
     border-top: none;
     border-right: none;
     border-left: none;
