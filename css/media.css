@@ -13,10 +13,10 @@
 @media only screen and (max-width:770px){
     .text-heading{
        position: absolute;
-       bottom: 35%;
+       bottom: 29%;
         margin: 0;
         padding: 0;
-        z-index: 50;
+        z-index: 5;
     }
     .more-btn {
     
@@ -102,19 +102,22 @@
         margin-top: 10px;
     }
     .size50{
-        border: 12px #ddc6b0 solid;
-        border-radius: 25px;
+      
+        
         width: 95%;
         margin: 0 auto;
-        margin-bottom: 10px;
+       
     }
     .wrapper-3 {
         padding-top: 50px;
     }
     .discount-box , .promo-box , .dis-image {
-        padding-bottom: 25px;
-        box-shadow: 0 0 10px #777777;
+        
+      margin-bottom: 20px;
 
+    }
+    .discount-box , .promo-box {
+        padding-bottom: 15px;
     }
     .wrapper-top nav .nav-menu{
         display: none;
