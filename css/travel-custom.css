@@ -233,10 +233,10 @@ body {
 }
 
 .box{
-   width: 360px;
-   height: 449px;
+   width: 750px;
+   height: 898px;
 
-
+margin: 0 auto;
     margin-bottom: 80px;
     background-color: #7f7770;
     position: relative;
