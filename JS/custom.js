@@ -1,6 +1,6 @@
 $(document).ready(function(){
     $(".menu-icon").click(function(){
-        $("#menu").toggleClass("active")
+        $("#menu").toggleClass("active2")
         $(".sidebar").toggleClass("active1")
 
     })
@@ -26,6 +26,7 @@ $('.owl-carousel').owlCarousel({
     margin:10,
     nav:false,
     autoplay:true,
+   
     responsive:{
         0:{
             items:1

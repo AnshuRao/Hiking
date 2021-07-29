@@ -146,10 +146,10 @@ body {
 }
 .text-heading h5{
     font-size: 2rem;
-    color: #ff7675;
+    color: #f8f2f2;
     margin-top: 25px;
     text-align: center;
-    font-family: 'WindSong', cursive;
+    font-family:  cursive;
 }
 
 .heading-1 {
@@ -781,24 +781,24 @@ line-height: 3rem;
 
 /* adding class on toggle ( bars) */
 
-.active{
+.active2{
     width: 5rem;
     height: 3.1rem;
 }
-.active span{
+.active2 span{
     position: absolute;
     width: calc(100% - 16px);
     top: calc(50% -8px);   
 }
-.active span:nth-child(1){
+.active2 span:nth-child(1){
     transform: rotate(45deg);
 
 }
-.active span:nth-child(2){
+.active2 span:nth-child(2){
     display: none; 
 }
 
-.active span:nth-child(3){
+.active2 span:nth-child(3){
     transform: rotate(-45deg);  
 }
 /* adding class to sidebar on toggle */
